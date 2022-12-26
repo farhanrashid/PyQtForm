@@ -1,0 +1,16 @@
+G:\Programming_and_Designing\Python\PyQtForm\bin\Debug\PyQtForm.exe.config
+G:\Programming_and_Designing\Python\PyQtForm\bin\Debug\PyQtForm.exe
+G:\Programming_and_Designing\Python\PyQtForm\bin\Debug\PyQtForm.pdb
+G:\Programming_and_Designing\Python\PyQtForm\obj\Debug\PyQtForm.csprojResolveAssemblyReference.cache
+G:\Programming_and_Designing\Python\PyQtForm\obj\Debug\PyQtForm.exe
+G:\Programming_and_Designing\Python\PyQtForm\obj\Debug\PyQtForm.pdb
+G:\Programming_and_Designing\Python\PyQtForm\obj\Debug\PyQtForm.FormOptions.resources
+G:\Programming_and_Designing\Python\PyQtForm\obj\Debug\PyQtForm.csproj.GenerateResource.Cache
+G:\Programming_and_Designing\Python\PyQtForm\C#\bin\Debug\PyQtForm.exe.config
+G:\Programming_and_Designing\Python\PyQtForm\C#\bin\Debug\PyQtForm.exe
+G:\Programming_and_Designing\Python\PyQtForm\C#\bin\Debug\PyQtForm.pdb
+G:\Programming_and_Designing\Python\PyQtForm\C#\obj\Debug\PyQtForm.csprojResolveAssemblyReference.cache
+G:\Programming_and_Designing\Python\PyQtForm\C#\obj\Debug\PyQtForm.FormOptions.resources
+G:\Programming_and_Designing\Python\PyQtForm\C#\obj\Debug\PyQtForm.csproj.GenerateResource.Cache
+G:\Programming_and_Designing\Python\PyQtForm\C#\obj\Debug\PyQtForm.exe
+G:\Programming_and_Designing\Python\PyQtForm\C#\obj\Debug\PyQtForm.pdb
