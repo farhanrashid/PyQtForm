@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
     parser.process(a);
 
     FormOptions w;
-    w.Init(parser.values(ProjectDirectory)[0], parser.values(SubDirectory)[0]);
+    w.Init(parser.values(ProjectDirectory).at(0), parser.values(SubDirectory).at(0));
     w.show();
     return a.exec();
 }
