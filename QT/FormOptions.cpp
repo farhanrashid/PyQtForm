@@ -41,7 +41,7 @@ void FormOptions::on_Generate_clicked()
     //TODO:
     FormType *FT = m_FormTypes[ui->cbFormType->currentText()];
     if(FT != NULL)
-        FT->Generate(m_ProjDir, m_SubDir);
+        FT->Generate(m_ProjDir, m_SubDir, "");
 
 
 }
