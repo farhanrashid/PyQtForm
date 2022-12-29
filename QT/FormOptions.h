@@ -16,13 +16,13 @@ public:
     FormOptions(QWidget *parent = nullptr);
     ~FormOptions();
 
-    void Init(QString aProjDir, QString aSubDir);
+    void Init(QString ProjDir, QString SubDir, QString PyInerpreter);
 
 private slots:
 
 private:
     Ui::FormOptions *ui;
-    QString m_ProjDir, m_SubDir;
+    QString m_ProjDir, m_SubDir, m_PyInerpreter;
     QMap<QString, FormType*> m_FormTypes;
 
     void on_Cancel_clicked();

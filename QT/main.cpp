@@ -17,22 +17,27 @@ int main(int argc, char *argv[])
                                         QCoreApplication::translate("main", "Python project <directory>."),
                                         QCoreApplication::translate("main", "PythonProject"),
                                         "Python-Project"); //default value
-
     parser.addOption(ProjectDirectory);
-
 
 
     QCommandLineOption SubDirectory("d",
                                         QCoreApplication::translate("main", "Sub directory or File"),
                                         QCoreApplication::translate("main", "SubDirectory"),
                                         "Sub-Directory"); //default value
+    parser.addOption(SubDirectory);
 
+    QCommandLineOption PythonInterpreter("i",
+                                        QCoreApplication::translate("main", "Python Interpreter"),
+                                        QCoreApplication::translate("main", "PythonInterpreter"),
+                                        "Python-Interpreter"); //default value
     parser.addOption(SubDirectory);
 
     parser.process(a);
 
     FormOptions w;
-    w.Init(parser.values(ProjectDirectory).at(0), parser.values(SubDirectory).at(0));
+    w.Init(parser.values(ProjectDirectory).at(0),
+           parser.values(SubDirectory).at(0),
+           "parser.values(PythonInterpreter).at(0)");
     w.show();
     return a.exec();
 }

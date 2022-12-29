@@ -27,12 +27,13 @@ FormOptions::~FormOptions()
     delete ui;
 }
 
-void FormOptions::Init(QString aProjDir, QString aSubDir)
+void FormOptions::Init(QString ProjDir, QString SubDir, QString PyInerpreter)
 {
-    ui->leProjDir->setText(aProjDir);
-    ui->leSubDir->setText(aSubDir);
-    m_ProjDir = aProjDir;
-    m_SubDir  = aSubDir;
+    ui->leProjDir->setText(ProjDir);
+    ui->leSubDir->setText(SubDir);
+    m_ProjDir = ProjDir;
+    m_SubDir  = SubDir;
+    m_PyInerpreter = PyInerpreter;
 
 }
 
