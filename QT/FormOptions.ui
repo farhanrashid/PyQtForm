@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>613</width>
-    <height>236</height>
+    <height>256</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -27,7 +27,7 @@
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
+    <item alignment="Qt::AlignTop">
      <widget class="QWidget" name="wgTop" native="true">
       <layout class="QVBoxLayout" name="verticalLayout_2">
        <property name="leftMargin">
@@ -69,7 +69,7 @@
          </item>
         </layout>
        </item>
-       <item alignment="Qt::AlignTop">
+       <item>
         <widget class="QWidget" name="widget" native="true">
          <property name="enabled">
           <bool>true</bool>
@@ -116,7 +116,7 @@
             <item>
              <widget class="QLabel" name="lblFileName">
               <property name="text">
-               <string>TextLabel</string>
+               <string>File Name</string>
               </property>
              </widget>
             </item>
@@ -128,11 +128,29 @@
          </layout>
         </widget>
        </item>
+       <item>
+        <widget class="QComboBox" name="cbFormType"/>
+       </item>
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_6">
+         <item>
+          <widget class="QLabel" name="lblPyInterpreter">
+           <property name="text">
+            <string>Python Interpreter</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lePyInterpreter">
+           <property name="enabled">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
       </layout>
      </widget>
-    </item>
-    <item alignment="Qt::AlignLeft|Qt::AlignTop">
-     <widget class="QComboBox" name="cbFormType"/>
     </item>
     <item>
      <widget class="QWidget" name="wgBottom" native="true">

@@ -7,7 +7,7 @@
 
 int main(int argc, char *argv[])
 {
-    QApplication a(argc, argv);
+    QApplication app(argc, argv);
     QCommandLineParser parser;
     parser.setApplicationDescription("PyQt5 Form Tool");
     parser.addHelpOption();
@@ -26,19 +26,19 @@ int main(int argc, char *argv[])
                                         "Sub-Directory"); //default value
     parser.addOption(SubDirectory);
 
-    QCommandLineOption PythonInterpreter("i",
-                                        QCoreApplication::translate("main", "Python Interpreter"),
-                                        QCoreApplication::translate("main", "PythonInterpreter"),
-                                        "Python-Interpreter"); //default value
-    parser.addOption(SubDirectory);
+    QCommandLineOption PythonDirectory("i",
+                                        QCoreApplication::translate("main", "Python directory"),
+                                        QCoreApplication::translate("main", "PythonDirectory"),
+                                        "Python-Directory"); //default value
+    parser.addOption(PythonDirectory);
 
-    parser.process(a);
+    parser.process(app);
 
-    FormOptions w;
-    w.Init(parser.values(ProjectDirectory).at(0),
+    FormOptions formOptions;
+    formOptions.Init(parser.values(ProjectDirectory).at(0),
            parser.values(SubDirectory).at(0),
-           "parser.values(PythonInterpreter).at(0)");
-    w.show();
-    return a.exec();
+           parser.values(PythonDirectory).at(0));
+    formOptions.show();
+    return app.exec();
 }
 
