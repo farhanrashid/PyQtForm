@@ -6,6 +6,7 @@
 QT_BEGIN_NAMESPACE
 namespace Ui { class FormOptions; }
 QT_END_NAMESPACE
+class FormType;
 
 class FormOptions : public QMainWindow
 {
@@ -21,7 +22,9 @@ private slots:
 
 private:
     Ui::FormOptions *ui;
-    QString ProjDir, SubDir;
+    QString m_ProjDir, m_SubDir;
+    QMap<QString, FormType*> m_FormTypes;
+
     void on_Cancel_clicked();
     void on_Generate_clicked();
 

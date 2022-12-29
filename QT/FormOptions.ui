@@ -82,33 +82,7 @@
         </layout>
        </item>
        <item alignment="Qt::AlignLeft">
-        <widget class="QComboBox" name="cbFormType">
-         <item>
-          <property name="text">
-           <string>Dialog with Buttons Bottom</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Dialog with Buttons Right</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Dialog with Buttons</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Main Window</string>
-          </property>
-         </item>
-         <item>
-          <property name="text">
-           <string>Widget</string>
-          </property>
-         </item>
-        </widget>
+        <widget class="QComboBox" name="cbFormType"/>
        </item>
       </layout>
      </widget>
