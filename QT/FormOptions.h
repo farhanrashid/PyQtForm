@@ -14,6 +14,8 @@ class FormOptions : public QMainWindow
     Q_OBJECT
 
 public:
+    inline static FileInfo* fileInfo;
+
     FormOptions(QWidget *parent = nullptr);
     ~FormOptions();
 
@@ -23,8 +25,6 @@ private slots:
 
 private:
     Ui::FormOptions *ui;
-    FileInfo *m_fileInfo;
-    QString m_ProjDir, m_SubDir, m_PyDir;
     QMap<QString, FormType*> m_FormTypes;
 
     void on_Cancel_clicked();
@@ -32,4 +32,5 @@ private:
 
 
 };
+
 #endif // FORMOPTIONS_H

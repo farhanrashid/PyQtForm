@@ -1,40 +1,25 @@
 #include "FormType.h"
+#include "FileInfo.h"
+#include "FormOptions.h"
 
-void FT_DialogWithButtonsBottom::Generate(QString ProjDir, QString SubDir, QString FormName)
+void FT_DialogWithButtonsBottom::Generate()
 {
-    ProjDir = "";
-    SubDir  = "";
-    FormName = "";
+//    FormOptions::fileInfo->m_FullPath = "";
 }
 
-void FT_DialogWithButtonsRight::Generate(QString ProjDir, QString SubDir, QString FormName)
+void FT_DialogWithButtonsRight::Generate()
 {
-    ProjDir = "";
-    SubDir  = "";
-    FormName = "";
-
 }
 
-void FT_DialogWithButtons::Generate(QString ProjDir, QString SubDir, QString FormName)
+void FT_DialogWithButtons::Generate()
 {
-    ProjDir = "";
-    SubDir  = "";
-    FormName = "";
-
 }
 
-void FT_MainWindow::Generate(QString ProjDir, QString SubDir, QString FormName)
+void FT_MainWindow::Generate()
 {
-    ProjDir = "";
-    SubDir  = "";
-    FormName = "";
-
 }
 
-void FT_Widget::Generate(QString ProjDir, QString SubDir, QString FormName)
+void FT_Widget::Generate()
 {
-    ProjDir = "";
-    SubDir  = "";
-    FormName = "";
 }
 
