@@ -1,8 +1,8 @@
 from PyQt5.QtWidgets import QMainWindow
-from Src.TEMPLATE_UI import Ui_TEMPLATEForm
+from Src.TemplateMainWindow_UI import Ui_TemplateMainWindow
 
 
-class TEMPLATEForm(Ui_TEMPLATEForm, QMainWindow):
+class TemplateMainWindow(Ui_TemplateMainWindow, QMainWindow):
     # constructor
     def __init__(self):
         super().__init__()
@@ -20,6 +20,6 @@ if __name__ == "__main__":
     from PyQt5 import QtWidgets
 
     app = QtWidgets.QApplication(sys.argv)
-    ThisForm = TEMPLATEForm()
-    ThisForm.show()
+    w = TemplateMainWindow()
+    w.show()
     sys.exit(app.exec_())
