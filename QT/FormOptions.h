@@ -7,6 +7,7 @@ QT_BEGIN_NAMESPACE
 namespace Ui { class FormOptions; }
 QT_END_NAMESPACE
 class FormType;
+class FileInfo;
 
 class FormOptions : public QMainWindow
 {
@@ -22,6 +23,7 @@ private slots:
 
 private:
     Ui::FormOptions *ui;
+    FileInfo *m_fileInfo;
     QString m_ProjDir, m_SubDir, m_PyDir;
     QMap<QString, FormType*> m_FormTypes;
 

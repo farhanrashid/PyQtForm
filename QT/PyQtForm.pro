@@ -11,11 +11,13 @@ CONFIG += c++17
 SOURCES += \
     FormOptions.cpp \
     FormType.cpp \
+    FileInfo.cpp \
     main.cpp
 
 HEADERS += \
     FormOptions.h \
-    FormType.h
+    FormType.h \
+    FileInfo.h
 
 FORMS += \
     FormOptions.ui

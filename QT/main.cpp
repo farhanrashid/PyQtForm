@@ -34,6 +34,15 @@ int main(int argc, char *argv[])
 
     parser.process(app);
 
+    if(!parser.isSet(ProjectDirectory))
+        qFatal("Project directory is required");
+
+    if(!parser.isSet(SubDirectory))
+        qFatal("Sub directory/file is required");
+
+    if(!parser.isSet(PythonDirectory))
+        qFatal("Python directory is required");
+
     FormOptions formOptions;
     formOptions.Init(parser.values(ProjectDirectory).at(0),
            parser.values(SubDirectory).at(0),

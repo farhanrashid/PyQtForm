@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 9.0.1, 2022-12-29T20:09:48. -->
+<!-- Written by QtCreator 9.0.1, 2022-12-30T09:30:49. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -238,7 +238,7 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/Backup/Programming_and_Designing/Python/PyQtForm/QT/PyQtForm.pro</value>
     <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/Backup/Programming_and_Designing/Python/PyQtForm/QT/PyQtForm.pro</value>
-    <value type="QString" key="RunConfiguration.Arguments">-p &quot;D:\Tuition\Marzena\Year 3\RecalculationsGUI&quot; -d &quot;Forms\TestForm.ui&quot; -i &quot;G:\Programming_and_Designing\Python\WinPython\python-3.11.0.amd64&quot;</value>
+    <value type="QString" key="RunConfiguration.Arguments">-p &quot;D:\Tuition\Marzena\Year 3\python_Project-&quot; -d &quot;Forms\TestForm.ui&quot; -i &quot;G:\Programming_and_Designing\Python\WinPython\python-3.11.0.amd64&quot;</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
