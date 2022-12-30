@@ -8,8 +8,8 @@ class FileInfo
 public:
     FileInfo();
 
-    QString m_ProjDir, m_SubDir, m_PyDir;
-    QString m_FullPath;
+    QString ProjDir, SubDir, PyDir;
+    QString FullPath;
 
 };
 

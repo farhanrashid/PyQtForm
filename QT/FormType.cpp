@@ -1,10 +1,9 @@
 #include "FormType.h"
-#include "FileInfo.h"
 #include "FormOptions.h"
 
 void FT_DialogWithButtonsBottom::Generate()
 {
-//    FormOptions::fileInfo->m_FullPath = "";
+    FormOptions::fileInfo.FullPath = "";
 }
 
 void FT_DialogWithButtonsRight::Generate()

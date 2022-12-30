@@ -8,7 +8,7 @@ FormOptions::FormOptions(QWidget *parent)
     , ui(new Ui::FormOptions)
 {
     ui->setupUi(this);
-    fileInfo = new FileInfo();
+
     m_FormTypes.insert("Dialog with Buttons Bottom", new FT_DialogWithButtonsBottom());
     m_FormTypes.insert("Dialog with Buttons Right", new FT_DialogWithButtonsRight());
     m_FormTypes.insert("Dialog with Buttons", new FT_DialogWithButtons());
@@ -24,7 +24,7 @@ FormOptions::FormOptions(QWidget *parent)
 
 FormOptions::~FormOptions()
 {
-    delete fileInfo;
+
     qDeleteAll(m_FormTypes); //delete all values(FormType *)
     m_FormTypes.clear();
     delete ui;
@@ -32,9 +32,9 @@ FormOptions::~FormOptions()
 
 void FormOptions::Init(QString ProjDir, QString SubDir, QString PyDir)
 {    
-    fileInfo->m_ProjDir = ProjDir;
-    fileInfo->m_SubDir = SubDir;
-    fileInfo->m_PyDir = PyDir;
+    fileInfo.ProjDir = ProjDir;
+    fileInfo.SubDir = SubDir;
+    fileInfo.PyDir = PyDir;
 
     //TODO :
     ui->leProjDir->setText(ProjDir);

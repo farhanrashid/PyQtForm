@@ -3,8 +3,6 @@
 
 #include <QString>
 
-class FileInfo;
-
 class FormType
 {
 public:
