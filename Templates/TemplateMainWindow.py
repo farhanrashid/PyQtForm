@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import QMainWindow
-from Src.TemplateMainWindow_UI import Ui_TemplateMainWindow
+from PyQtX.QtWidgets import QMainWindow
+from SubFolder.TemplateMainWindow_UI import Ui_TemplateMainWindow
 
 
 class TemplateMainWindow(Ui_TemplateMainWindow, QMainWindow):
@@ -17,7 +17,7 @@ class TemplateMainWindow(Ui_TemplateMainWindow, QMainWindow):
 
 if __name__ == "__main__":
     import sys
-    from PyQt5 import QtWidgets
+    from PyQtX import QtWidgets
 
     app = QtWidgets.QApplication(sys.argv)
     w = TemplateMainWindow()
