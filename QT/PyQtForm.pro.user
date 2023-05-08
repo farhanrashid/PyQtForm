@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 10.0.0, 2023-04-06T23:42:41. -->
+<!-- Written by QtCreator 10.0.0, 2023-05-08T05:58:42. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
-  <value type="QByteArray">{f7a36817-6120-45dc-8d28-4a6a1ea3c7db}</value>
+  <value type="QByteArray">{301bf360-7d89-473e-8e93-1e7b407d87be}</value>
  </data>
  <data>
   <variable>ProjectExplorer.Project.ActiveTarget</variable>
@@ -95,8 +95,8 @@
    <value type="qlonglong" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\Backup\Programming_and_Designing\Python\PyQtForm\QT\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/Backup/Programming_and_Designing/Python/PyQtForm/QT/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QT\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">G:/Programming_and_Designing/Python/PyQtForm/QT/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -134,8 +134,8 @@
     <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\Backup\Programming_and_Designing\Python\PyQtForm\QT\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/Backup/Programming_and_Designing/Python/PyQtForm/QT/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QT\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">G:/Programming_and_Designing/Python/PyQtForm/QT/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -175,8 +175,8 @@
    </valuemap>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">D:\Backup\Programming_and_Designing\Python\PyQtForm\QT\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">D:/Backup/Programming_and_Designing/Python/PyQtForm/QT/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QT\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory.shadowDir">G:/Programming_and_Designing/Python/PyQtForm/QT/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
@@ -236,15 +236,15 @@
     <valuelist type="QVariantList" key="CustomOutputParsers"/>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:D:/Backup/Programming_and_Designing/Python/PyQtForm/QT/PyQtForm.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">D:/Backup/Programming_and_Designing/Python/PyQtForm/QT/PyQtForm.pro</value>
-    <value type="QString" key="RunConfiguration.Arguments">-p &quot;D:\Tuition\Marzena\Year 3\python_Project-&quot; -d &quot;Forms\TestForm.ui&quot; -i &quot;G:\Programming_and_Designing\Python\WinPython\python-3.11.0.amd64&quot;</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:G:/Programming_and_Designing/Python/PyQtForm/QT/PyQtForm.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">G:/Programming_and_Designing/Python/PyQtForm/QT/PyQtForm.pro</value>
+    <value type="QString" key="RunConfiguration.Arguments">-p &quot;D:\Tuition\Marzena\Year 3\python_Project-&quot; -d &quot;Forms\TestForm.ui&quot; -i &quot;G:\Programming_and_Designing\Python\Python&quot;</value>
     <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/Backup/Programming_and_Designing/Python/PyQtForm/QT/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">G:/Programming_and_Designing/Python/PyQtForm/QT/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>

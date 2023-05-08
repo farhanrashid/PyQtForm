@@ -10,6 +10,8 @@ public:
 
     QString ProjDir, SubDir, PyDir;
     QString FullPath;
+    //Qdir
+    //QFileInfo
 
 };
 
