@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 10.0.1, 2023-05-14T19:41:43. -->
+<!-- Written by QtCreator 10.0.1, 2023-05-14T20:07:21. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -106,7 +106,8 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="int" key="EnableQmlDebugging">0</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit\Debug</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -162,7 +163,7 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit\Release</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -218,7 +219,7 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit\RelWithDebInfo</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -273,7 +274,7 @@
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
     <value type="int" key="EnableQmlDebugging">0</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit\Profile</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -327,7 +328,7 @@
 -DCMAKE_C_COMPILER:FILEPATH=%{Compiler:Executable:C}
 -DCMAKE_CXX_COMPILER:FILEPATH=%{Compiler:Executable:Cxx}
 -DCMAKE_CXX_FLAGS_INIT:STRING=%{Qt:QML_DEBUG_FLAG}</value>
-    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">G:\Programming_and_Designing\Python\PyQtForm\QtCMake\build-Desktop_Qt_6_5_0_MinGW_64_bit\MinSizeRel</value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
      <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
       <value type="QString" key="CMakeProjectManager.MakeStep.BuildPreset"></value>
@@ -398,7 +399,7 @@
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">G:/Programming_and_Designing/Python/PyQtForm/QtCMake/build-Desktop_Qt_6_5_0_MinGW_64_bit</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">G:/Programming_and_Designing/Python/PyQtForm/QtCMake/build-Desktop_Qt_6_5_0_MinGW_64_bit/Debug</value>
    </valuemap>
    <value type="qlonglong" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
   </valuemap>
