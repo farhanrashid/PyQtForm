@@ -24,22 +24,21 @@ FormOptions::FormOptions(QWidget *parent)
 
 FormOptions::~FormOptions()
 {
-
     qDeleteAll(m_FormTypes); //delete all values(FormType *)
     m_FormTypes.clear();
     delete ui;
 }
 
-void FormOptions::Init(QString ProjDir, QString SubDir, QString PyDir)
+void FormOptions::Init(QString ProjDir, QString SubDir, QString PyUIC)
 {    
     fileInfo.ProjDir = ProjDir;
     fileInfo.SubDir = SubDir;
-    fileInfo.PyDir = PyDir;
+    fileInfo.PyUIC = PyUIC;
 
     //TODO :
     ui->leProjDir->setText(ProjDir);
     ui->leSubDir->setText(SubDir);
-    ui->lePyInterpreter->setText(PyDir);
+    ui->lePyUIC->setText(PyUIC);
 }
 
 void FormOptions::on_Generate_clicked()

@@ -134,14 +134,14 @@
        <item>
         <layout class="QVBoxLayout" name="verticalLayout_6">
          <item>
-          <widget class="QLabel" name="lblPyInterpreter">
+          <widget class="QLabel" name="lblPyUIC">
            <property name="text">
-            <string>Python Interpreter</string>
+            <string>PyUIC</string>
            </property>
           </widget>
          </item>
          <item>
-          <widget class="QLineEdit" name="lePyInterpreter">
+          <widget class="QLineEdit" name="lePyUIC">
            <property name="enabled">
             <bool>false</bool>
            </property>

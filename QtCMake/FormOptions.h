@@ -19,7 +19,7 @@ public:
     FormOptions(QWidget *parent = nullptr);
     ~FormOptions();
 
-    void Init(QString ProjDir, QString SubDir, QString PyDir);
+    void Init(QString ProjDir, QString SubDir, QString PyUIC);
 
 private slots:
 

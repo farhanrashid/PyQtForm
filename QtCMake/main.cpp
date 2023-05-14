@@ -3,7 +3,6 @@
 #include <QApplication>
 #include <QCommandLineParser>
 #include <QCommandLineOption>
-#include <QDebug>
 
 int main(int argc, char *argv[])
 {
@@ -21,16 +20,16 @@ int main(int argc, char *argv[])
 
 
     QCommandLineOption SubDirectory("d",
-                                        QCoreApplication::translate("main", "Sub directory or File"),
+                                        QCoreApplication::translate("main", "Sub directory or file"),
                                         QCoreApplication::translate("main", "SubDirectory"),
                                         "Sub-Directory"); //default value
     parser.addOption(SubDirectory);
 
-    QCommandLineOption PythonDirectory("i",
-                                        QCoreApplication::translate("main", "Python directory"),
-                                        QCoreApplication::translate("main", "PythonDirectory"),
-                                        "Python-Directory"); //default value
-    parser.addOption(PythonDirectory);
+    QCommandLineOption PyUIC("u",
+                                        QCoreApplication::translate("main", "PyUIC path"),
+                                        QCoreApplication::translate("main", "PyUIC"),
+                                        "PyUIC"); //default value
+    parser.addOption(PyUIC);
 
     parser.process(app);
 
@@ -40,13 +39,13 @@ int main(int argc, char *argv[])
     if(!parser.isSet(SubDirectory))
         qFatal("Sub directory/file is required");
 
-    if(!parser.isSet(PythonDirectory))
-        qFatal("Python directory is required");
+    if(!parser.isSet(PyUIC))
+        qFatal("PyUIC is required");
 
     FormOptions formOptions;
     formOptions.Init(parser.values(ProjectDirectory).at(0),
            parser.values(SubDirectory).at(0),
-           parser.values(PythonDirectory).at(0));
+           parser.values(PyUIC).at(0));
     formOptions.show();
     return app.exec();
 }

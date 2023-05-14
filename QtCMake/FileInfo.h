@@ -8,7 +8,7 @@ class FileInfo
 public:
     FileInfo();
 
-    QString ProjDir, SubDir, PyDir;
+    QString ProjDir, SubDir, PyUIC;
     QString FullPath;
     //Qdir
     //QFileInfo
