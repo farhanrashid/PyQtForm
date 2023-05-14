@@ -16,6 +16,10 @@ set(PROJECT_SOURCES
         main.cpp
         FormOptions.cpp
         FormOptions.h
+        FormType.cpp
+        FormType.h
+        FileInfo.cpp
+        FileInfo.h
         FormOptions.ui
 )
 
